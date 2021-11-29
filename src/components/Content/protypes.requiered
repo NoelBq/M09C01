@@ -1,0 +1,15 @@
+propTypes = {
+titulo:PropTypes.array.isRequired,
+icon:PropTypes.array.isRequired,
+text:PropTypes.array.isRequired,
+cifra:PropTypes.array.isRequired,
+border: PropTypes.array.isRequired,
+};
+ContentRowMovies.defaultProps = {
+titulo:"No se encuentra titulo",
+icon:"Icono inaccesible",
+text:"Texto inaccesible",
+cifra: 0,
+border: "null",
+};
+

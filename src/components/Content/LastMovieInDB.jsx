@@ -20,4 +20,4 @@ function LastMovieInDB() {
     )
 }
 
-export default LastMovieInDB
+export default LastMovieInDB;
